@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="main assets/shorticon.png" type= "image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="./style.js" defer></script>
+    <title>Trek & Tales Uttarakhand</title>
+</head>
+<body>
+
+    <div class="video-container">
+        <h2 class="logo">Trek & Tales</h2>
+        <div class="menu-container">
+            <div class="menu-toggle" id="menu-toggle">
+            </div>
+            <div class="menu" id="menu">
+                <ul class="flex">
+                <li><a class="line-hover" href="#Home">Home</a></li>
+                <li><a class="line-hover" href="#About">About</a</li>
+                <li><a class="line-hover" href="#Testimonials">Blog</a></li>
+                <li><a class="line-hover" href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <video class="video1" autoplay loop muted>
+            <source src="./169951 (1080p).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+      <div class="hoverr">
+        <video class="sliding-img" autoplay loop muted> <source src="./VID_20230918100541.mp4" type="video/mp4"></video>
+        <a class="btn" href="#About">Explore</a>
+      </div>
+
+       <div class="heading"><h1>Explore Uttarakhand <span class="small">⮞</span></h1> 
+      </div>
+    </div>
+
+    <main id="About">
+
+        <div class="container-1">
+
+            <div class="about-head">
+            <h1 class="head-2">❝Where the Mountains Sing and the Rivers Dance❞</h1>
+            <span>Embrace the land of divinity, adventure, and natural beauty. Embark on a journey through the heart of the Himalayas, where every step is a pilgrimage and every moment a celebration of nature's wonders.</span>
+            </div>
+               <div class="gallery">
+               <div class="box b-1 row-2" id="box-1" style="background-image: url('main assets/Ranthi\ waterfall.jpg');"></div>
+               <div class="box b-2 col-2" style="background-image: url('main assets/Ranikhet-Grid.jpg');"></div>
+               <div class="box b-3" style="background-image: url('main assets/Surkanda\ devi\ -\ grid.jpg');"></div>
+               <div class="box b-4 row-2" style="background-image: url('main assets/Kafal-Grid.webp');"></div>
+               <div class="box b-5 col-2" style="background-image: url('main assets/Pauri-Grid.jpg');"></div>
+               <div class="box b-6" style="background-image: url('main assets/Rudranath-Grid.jpg');"></div>
+               <div class="box b-7 col-2" style="background-image: url('main assets/Kasar\ Devi\ -Grid.jpg');"></div> 
+               </div>
+
+        </div>
+    </main>
+    
+    <div class="page-3">
+
+        <section class="gallary">
+            <div class="section__container gallary__container">
+              <div class="image__gallary">
+                <div class="gallary__col">
+                  <video loop id="myVideo">
+                    <source src="./YouCut_20230915_173921167.mp4">
+                  </video>
+                  <div class="play-btn">
+                    <h3 onclick="playVideo()" id="watch">
+                      <i class="fa-solid fa-play" aria-hidden="true"></i>
+                    </h3>
+                  </div>
+                </div>
+                <div class="gallary__col">
+                  <img src="./gallery-2.jpg" alt="gallary" />
+                  <img src="./gallery-3.jpg" alt="gallary" />
+                </div>
+              </div>
+              <div class="gallary__content">
+                <div>
+                  <h2 class="section__title">
+                    Our trip gallery that will inspire you!
+                  </h2>
+                  <p class="section__subtitle">
+                    Explore your suitable and dream places around the world. Here you
+                    can find your right destination.
+                  </p>
+                  <button class="btn-3">View More</button>
+                </div>
+              </div>
+            </div>
+          </section>
+    
+   </div>
+
+    <div class="background-container" id="Carousel">
+      <div id="root"></div>
+    </div>
+
+    <section class="trip">
+        <div class="section__container trip__container">
+          <h2 class="section__title">Best trip packages!</h2>
+          <p class="section__subtitle">
+            Explore your suitable and dream places around the world. Here you can
+            find your right destination.
+          </p>
+          <div class="trip__grid">
+            <div class="trip__card">
+
+              <div class="card-body">
+                <h4 class="card-heading">4-Day Adventure Getaway  ⮞</h4>
+                <br>
+                <ul class="keyy">
+                  <li> ○ Duration: 4 days</li>
+                  <li> ○ Destinations: Nainital, Rishikesh, Corbett National Park</li>
+                  <li> ○ Accommodation: Comfortable hotels</li>
+                  <li> ○ Meals: Breakfast included</li>
+                  <li> ○ Activities: Trekking, river rafting, wildlife safari</li>
+                </ul>
+              </div>
+              <img src="./trip-1.jpg" alt="trip" />
+               <div class="trip__details">
+                <p>Rishkesh - Nainital Tour</p>
+                <div class="rating">4.2  <i class="fa-solid fa-star" style="color: #cfae07;"></i></div>
+                <div class="booking__price">
+                  <div class="price"><span>From  <i class="fa-solid fa-indian-rupee-sign" style="color: #0d1e3b;"></i></span> 8000</div>
+                  <button class="book__now" data-price="8000" onclick="openPaymentModal(this)">Book Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="trip__card">
+              <div class="card-body">
+                <h4 class="card-heading">6-Day Adventure Getaway  ⮞</h4>
+                <br>
+                <ul class="keyy">
+                  <li> ○ Duration: 6 days</li>
+                  <li> ○ Destinations: Tungnath, Munsyari, Almora Hills</li>
+                  <li> ○ Accommodation: Comfortable hotels</li>
+                  <li> ○ Meals: Breakfast included</li>
+                  <li> ○ Activities: Trekking, Serene Views</li>
+                </ul>
+              </div>
+              <img src="./trip-2.jpg" alt="trip" />
+              <div class="trip__details">
+                <p>Tungnath-Munsyari Tour</p>
+                <div class="rating">4.5  <i class="fa-solid fa-star" style="color: #cfae07;"></i></div>
+                <div class="booking__price">
+                  <div class="price"><span>From  <i class="fa-solid fa-indian-rupee-sign" style="color: #0d1e3b;"></i></span> 9000</div>
+                  <button class="book__now" data-price="9000" onclick="openPaymentModal(this)">Book Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="trip__card">
+              <div class="card-body">
+                <h4 class="card-heading">7-Day Adventure Getaway  ⮞</h4>
+                <br>
+                <ul class="keyy">
+                  <li> ○ Duration: 7 days</li>
+                  <li> ○ Destinations: Kedarnath, Badrinath, Gangotri, Yamunotri</li>
+                  <li> ○ Accommodation: Comfortable hotels</li>
+                  <li> ○ Meals: Breakfast-Lunch included</li>
+                  <li> ○ Activities: Trekking, Pilgrimage</li>
+                </ul>
+              </div>
+              <img src="./trip-3.jpg" alt="trip" />
+              <div class="trip__details">
+                <p>Char Dham Tour</p>
+                <div class="rating">4.7  <i class="fa-solid fa-star" style="color: #cfae07;"></i></div>
+                <div class="booking__price">
+                  <div class="price"><span>From  <i class="fa-solid fa-indian-rupee-sign" style="color: #0d1e3b;"></i></span> 18000</div>
+                  <button class="book__now" data-price="18000" onclick="openPaymentModal(this)">Book Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="view__all">
+            <button class="btn-3">View All</button>
+          </div>
+        </div>
+
+          <div id="paymentModal" class="modal">
+            <div class="container-payment">
+                <span class="close" onclick="closePaymentModal()">&times;</span>
+
+                <div class="content-1">
+                    
+                 <div class="image-box">
+                     <div class="image-slider"></div>
+                </div>
+        
+                <form id="paymentForm" onsubmit="processPayment(); return false;">
+                <div class="topic">Payment Details</div>
+                <div class="input-box-1">
+                    <input type="text" id="name" required>
+                    <i class="fa-solid fa-user payment-icon"></i>
+                    <label>Enter Your name</label>
+                </div>
+                <div class="input-box-1">
+                    <input type="text" id="email" required>
+                    <i class="fa-solid fa-envelope payment-icon"></i>
+                    <label>Enter Your email</label>
+                </div>
+                <div class="input-box-1">
+                <input type="tel" id="contact" required>
+                <i class="fa-solid fa-phone payment-icon"></i>
+                <label for="contact">Contact </label>
+                </div>
+                <div class="input-box-1">
+                    <button id="rzp-button1"  data-amount="">Proceed  <i class="fa-solid fa-angle-right"></i></button>
+                </div>
+            </form>
+            </div>
+            </div>
+        </div>
+          
+      </section>
+
+    <div class="css-slider">
+        <h1>Thrills or Tranquility: Your Choice</h1>
+        <div class="outer-container">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide-1" src="main assets/Slider-1.webp"alt="image">
+                <img id="slide-2" src="main assets/Slider-3.jpg" alt="image">
+                <img id="slide-3" src="main assets/Slider-2.jpg" alt="image">
+                <img id="slide-4" src="main assets/Slider-4.jpg" alt="image">
+            </div>
+            <div class="slider-nav" id="controls">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+            </div>
+        </div>
+       </div>
+    </div>
+
+    <div id="Testimonials">
+    <div id="page" class="site">
+        <div class="container-testi">
+            <div class="testi">
+                <div class="head">
+                    <h3>Testimonials</h3>
+                    <p>See what people are saying...</p>
+                </div>
+                <div class="body mySwiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <div class="wrapper">
+                            <div class="thumbnail">
+                                <img src="main assets/testimonial-3.jpg" alt="Image">
+                            </div>
+                            <div class="aside">
+                                <p>From the serene landscapes to the vibrant culture, every moment felt like a dream. A heartfelt thanks to "Trek Tales" for curating an unforgettable experience</p>
+                                <div class="name">
+                                    <h4>Ruchi Rawat</h4>
+                                    <p>Actress</p>
+                                </div>
+                            </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="wrapper">
+                            <div class="thumbnail">
+                                <img src="main assets/testimonial-1.jpg" alt="Image">
+                            </div>
+                            <div class="aside">
+                                <p>Exploring the hidden gems of Uttarakhand with Trek Tales was an adventure of a lifetime. Their expert guidance and meticulously planned travel packages made every step memorable</p>
+                                <div class="name">
+                                    <h4>Sanjoli Singh</h4>
+                                    <p>Designer</p>
+                                </div>
+                            </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="wrapper">
+                            <div class="thumbnail">
+                                <img src="main assets/testimonial-2.jpg" alt="Image">
+                            </div>
+                            <div class="aside">
+                                <p>Exploring Uttarakhand's vibrant culture and natural wonders was an incredible adventure. The warmth of the people, coupled with the picturesque beauty, created a journey that will forever hold a special place in my heart.</p>
+                                <div class="name">
+                                    <h4>Raghav Juyal</h4>
+                                    <p>Actor</p>
+                                </div>
+                            </div>
+                            </div>
+                        </li>
+                    </ul>
+                      <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+
+                     <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div class=" contact-body" id="Contact">
+        
+        <div class="container-contact">
+        <div class="content">
+                
+        <form action="" method="POST">
+            <div class="topic">Get in touch with us!</div>
+            <div class="input-box">
+                <input type="text" required >
+                <i class="fa-solid fa-user contact-icon"></i>
+                <label>Enter Your name   </label>
+            </div>
+            <div class="input-box">
+                <input type="email" required>
+                <i class="fa-solid fa-envelope contact-icon"></i>
+                <label>Enter Your email</label>
+            </div>
+            <div class="message-box">
+                <textarea placeholder="Enter Your message"></textarea>
+                <i class="fa-solid fa-message contact-icon"></i>
+            </div>
+            <div class="input-box">
+                <input type="submit" value="Send Message">
+            </div>
+        </form>
+        </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="row">
+            <div class="col">
+                <h2>Trek & Tales <i class="fa-solid fa-person-hiking logo-2"></i></h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur asperiores voluptates aperiam inventore fugit impedit id optio eos illum magni!</p>
+           </div>
+            <div class="col">
+                <h3>Office <div class="underline"><span></span></div></h3>
+                <p>Shivaji nagar, Rishikesh</p>
+                <p>Uttarakhand, PIN 234345</p>
+                <p class="email-id">trektales@yahoo.com</p>
+                <h4>+91-9537820137</h4>
+            </div>
+            <div class="col">
+                <h3>Links <div class="underline"><span></span></div></h3>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Testimonials</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Newsletter <div class="underline"><span></span></div></h3>
+                <form class="hi">
+                <i class="fa-regular fa-envelope far"></i>
+                <input class="hey"  type="email" placeholder="Enter Your Email">
+                <button class="newsletter" type="submit"><i class="fa-solid fa-arrow-right arrow"></i></button>
+              </form>
+              <div class="social-icons">
+                <i class="fa-brands fa-facebook-messenger icon"></i>
+                <i class="fa-brands fa-instagram icon"></i>
+                <i class="fa-brands fa-twitter icon"></i>
+                <i class="fa-brands fa-pinterest icon"></i>
+              </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Trek & Tales | Copyright@2023</p>
+    </footer>
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+
+<!-- Play Button -->
+<script>
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("watch");
+    function playVideo(){
+      if(video.paused){
+        video.play();
+        btn.querySelector('.fa-solid').classList.replace('fa-play', 'fa-pause');
+      }
+      else{
+        video.pause();
+        btn.querySelector('.fa-solid').classList.replace('fa-pause', 'fa-play');
+      }
+    }
+</script>
+
+   <script src="https://kit.fontawesome.com/2c7085212e.js" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/2c7085212e.js" crossorigin="anonymous"></script>
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+   <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</body>
+</html>
